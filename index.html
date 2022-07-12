@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Manage Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="img/stock manage logo1.PNG" alt="website logo" />
+        </div>
+        <div class="hidden md:flex space-x-6">
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- buttons -->
+        <a
+          href="#"
+          class="p-3 px-6 pt-1 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          >Get Started</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row"
+      >
+        <!-- Left item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+          >
+            Bring everyone together to build better products
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="p-3 px-6 pt-1 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <!-- Images -->
+        <div class="md:w-1/2">
+          <img src="img/sample.png" alt="pictures" />
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div
+        class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row"
+      >
+        <!-- What's different -->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+          <h2 class="max-w-sm text-4xl font-bold text-center md:text-left">
+            What's different about Manage?
+          </h2>
+          <p class="max-w-sm text-darkGrayishBlue text-center md:text-left">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <!-- Numbered List -->
+        <div class="flex flex-col space-y-8 md:w-1/2">
+          <!-- List Item 1 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  01
+                </div>
+
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Track company wide progress
+                </h3>
+              </div>
+            </div>
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Track company wide progress
+              </h3>
+              <p class="text-darkGrayishBlue">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
+            </div>
+          </div>
+
+          <!-- List Item 2 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  02
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Advanced built-in reports
+                </h3>
+              </div>
+            </div>
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Advanced built-in reports
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+          </div>
+          <!-- List Item 3 -->
+          <div
+            class="flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row"
+          >
+            <!-- Heading -->
+            <div class="rounded-full bg-brightRedSupLight md:bg-transparent">
+              <div class="flex items-center space-x-2">
+                <div
+                  class="px-4 py-2 text-white rounded-full md:py-1 bg-brightRed"
+                >
+                  03
+                </div>
+                <h3 class="text-base font-bold md:mb-4 md:hidden">
+                  Provide everything you need
+                </h3>
+              </div>
+            </div>
+            <div>
+              <h3 class="hidden mb-4 text-lg font-bold md:block">
+                Provide everything you need
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Giving best and quality service in taking care of your online
+                investment. Fastest and safest way of growing your money
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="coins">
+      <!-- Coin Container -->
+      <div
+        class="container1 mt-24 text-center justify-between space-y-12 md:space-y-0"
+      >
+        <!-- btc -->
+        <div class="coin-price">
+          <div class="flex justify-center logo">
+            <img
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEi32rDKQR2Swi7YfHjDzyZUBGEmxTz77OClnm24SZl7kWuls7fsVCIfAObY_JRJIReQnBWZIPSVfDLSqDvqeu4CCXCoNQIoUGK-OSDUGMtDJFxh9vmU6WGajIgXH4CsR_-sXU0qWbyJTJl7N0BSTB8HcAGSpCJ54G1daZPnU6h2oANo2CTGsbHCoaGJHQ"
+            />
+          </div>
+          <div>
+            <h1>$<span id="bitcoin"></span></h1>
+            <h1>Bitcoin</h1>
+          </div>
+        </div>
+        <!-- litecoin -->
+        <div class="coin-price">
+          <div class="flex justify-center logo">
+            <img
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEhrUFoHC68rLHQYMV41awqGtoeU6qI-CkSVmcYK-KBCrOvL-jzwLOx8pN-5B8aALsHh1Zc9mmDm8LVQSSpdpsw0v6vrJsv4r9_lv0ic5aYbogc3i3h9mG6ZGMc7g9_cGSRh_soaKmXtpMEOxBFIsmiTa_wticu9T07MbqQ42J9NwowHp8tn8OUIBlhjqA"
+            />
+          </div>
+          <div>
+            <h1>$<span id="litecoin"></span></h1>
+            <h1>Litecoin</h1>
+          </div>
+        </div>
+        <!-- eth -->
+        <div class="coin-price">
+          <div class="flex justify-center logo">
+            <img
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEgfcodOJm7ZIXw2kiqdo5abN4cUvFYgyqpKt91zHI8710ltPK5Ny_S5X93w9LSDsF5jW61frn3C8a_8w2GXu4bf0clzxuJljoQ8n6az5EI5zQOcl5W2LScP-1-41NQwPW5A3JWT9EwejtOnHsd3q2-llUsJJQ3Z74v_2FOPn0TrI2529NS9_hmFbvModw"
+            />
+          </div>
+          <div>
+            <h1>$<span id="ethereum"></span></h1>
+            <h1>Ethereum</h1>
+          </div>
+        </div>
+        <!-- doge -->
+        <div class="coin-price">
+          <div class="flex justify-center logo">
+            <img
+              src="https://blogger.googleusercontent.com/img/a/AVvXsEj9YzGIFUSMpRoWE4IjGl_o2zpdPkvtUS6jzIgZWEWl7ztYyV20oXu80A52v0R_nXpt_qXVBzxnfse2_pfeIbVHwQSR3oLqqAyMqVqnzJpdbSCBHA2b_zlheiLY3Bb0PYCEXQny7q-FnGE01ZtxVFVC8DbLWW-ZC1PC-gaqL7IC7ZfRxFOZufcv8lcY1g"
+            />
+          </div>
+          <div>
+            <h1>$<span id="dogecoin"></span></h1>
+            <h1>Dogecoin</h1>
+          </div>
+        </div>
+      </div>
+      <script src="ap.js"></script>
+    </section>
+
+    <section class="footer">
+      <!-- Container -->
+      <footer>
+        <div
+          class="p-10 bg-slate-600 text-red-500 mt-10 md:items-center text-gray-200 mt-10"
+        >
+          <div class="max-w-7xl mx-auto items-center">
+            <div class="flex container3 grid grid-cols-4 md:grid-cols-1">
+              <div class="mb-5">
+                <h4 class="text-2xl pb-4 mr-20 md:text-2xl pb-4">
+                  StockManage
+                </h4>
+                <p class="mr-40 text-gray-500 mr-20 md:items-center">
+                  Blk 33 Magsaysay St. <br />
+                  Corner Comaplex Ave.<br />
+                  Along Binan Hi-way<br />
+                  Sta Rosa City <br />
+                  Manila 4524 <br />
+                  <br />
+                  <strong>Phone </strong>
+                  +639-809-809-80888 <br />
+                  <strong> Emails </strong>
+                  stockmanage@gmail.com <br />
+                </p>
+              </div>
+              <div class="mb-5 mr-40">
+                <h4 class="pb-4">Useful Links</h4>
+                <ul class="text-gray-500">
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Home</a>
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Services</a>
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Terms of</a>
+                    Services
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue"
+                      >Policy and Condition</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="mb-5 mr-40">
+                <h4 class="pb-4">Our Services</h4>
+                <ul class="text-gray-500">
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Products</a>
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Business</a>
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">How it</a>
+                    Works
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue"
+                      >Suggestion</a
+                    >
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue"
+                      >Collaborations</a
+                    >
+                  </li>
+                  <li class="pb-4">
+                    <a href="#" class="hover:text-darkGrayishBlue">Sample</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="mb-5 mr-32">
+                <h4 class="pb-4">Send us your Feedback</h4>
+                <form>
+                  <input type="text" name="" id="" />
+                  <br />
+                  <button>Subscribe</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- column 1 -->
+          <div></div>
+          <!-- column2 -->
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
